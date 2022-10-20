@@ -5,4 +5,8 @@ contract HelloWorld {
     function sayHello() public returns (string memory) {
         return ("Hello World");
     }
+    function echo(string memory name)public view returns (string memory) {
+    return name;
+    }
 }
+
